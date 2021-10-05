@@ -42,4 +42,4 @@ echo >> "/dev/disk/by-uuid/0328d1bd-ed55-4f32-bf1b-91aad6910b23          /srv/de
 
 
 
-
+//modify static ip 
