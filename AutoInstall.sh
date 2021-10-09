@@ -43,3 +43,9 @@ echo >> "/dev/disk/by-uuid/0328d1bd-ed55-4f32-bf1b-91aad6910b23          /srv/de
 
 
 //modify static ip 
+echo >> "
+interface eth0
+static ip_address=192.168.1.50/24
+static routers=192.168.1.1
+static domain_name_servers=1.1.1.1"  /etc/dhcpcd.conf
+
