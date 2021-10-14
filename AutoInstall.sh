@@ -36,14 +36,14 @@ sudo ln -s /usr/share/phpmyadmin /var/www/html
 
 
 #mount hdd , add line to hdd 
-echo >> "/dev/disk/by-uuid/0328d1bd-ed55-4f32-bf1b-91aad6910b23          /srv/dev-disk-by-uuid-0328d1bd-ed55-4f32-bf1b-91aad6910b23      ext4    defaults,nofail,user_xattr,usrjquota=aquota.user,grpjquota=aquota.group,jqfmt=vfsv0,acl 0 2" /etc/fstab 
+echo "/dev/disk/by-uuid/0328d1bd-ed55-4f32-bf1b-91aad6910b23          /srv/dev-disk-by-uuid-0328d1bd-ed55-4f32-bf1b-91aad6910b23      ext4    defaults,nofail,user_xattr,usrjquota=aquota.user,grpjquota=aquota.group,jqfmt=vfsv0,acl 0 2" >> /etc/fstab 
 
 
 
 
 
 //modify static ip 
-echo >> "
+echo  "
 network:
   ethernets:
     enx4ce173422ae4:
@@ -56,5 +56,5 @@ network:
       nameservers:
        addresses: [1.1.1.1, 8.8.8.8]
 
-"  20-openmediavault-eth0.yaml
+" >> 20-openmediavault-eth0.yaml
 
