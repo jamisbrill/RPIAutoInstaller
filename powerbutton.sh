@@ -16,3 +16,4 @@ echo  "echo '~pi/shutdown-press-simple.py'" >> /etc/rc.local
 
 #Power button tutorial thanks to , turned into a simple script.
 #https://www.makeuseof.com/tag/add-power-button-raspberry-pi/#
+#https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2019/05/muo-diy-raspberrypi-power-switch.png?q=50&fit=crop&w=750&dpr=1.5
