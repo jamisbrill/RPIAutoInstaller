@@ -8,7 +8,7 @@ Button(21).wait_for_press()
 os.system("sudo poweroff") " >> shutdown-press-simple.py
 
 chmod a+x shutdown-press-simple.py
-echo  "echo '~pi/shutdown-press-simple.py'" >> /etc/rc.local
+echo  "echo '~pi/shutdown-press-simple.py'" >> /etc/rc.local #need to append before exit 0 
 #
 
 
