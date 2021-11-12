@@ -30,6 +30,8 @@ sudo wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript
 curl -sSL https://install.pi-hole.net | bash
 
 echo "modify /etc/lighttpd.conf server.port = 8080, systemctl restart lighttpd "
+sed 's/server.port = 80/server.port = 8080/' /etc/lighttpd.conf #this should modify the line to say port 8080 //== Needs TESTING. 
+
 
 #Install MariaDB
 sudo apt install mariadb-server
