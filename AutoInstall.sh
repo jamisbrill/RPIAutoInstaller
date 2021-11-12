@@ -47,7 +47,7 @@ sudo ln -s /usr/share/phpmyadmin /var/www/html
 
 
 
-//modify static ip 
+//modify static ip , default pi networking is removed with omv .... 
 echo  "
 network:
   ethernets:
@@ -61,5 +61,5 @@ network:
       nameservers:
        addresses: [1.1.1.1, 8.8.8.8]
 
-" >> 20-openmediavault-eth0.yaml
+" >> 20-openmediavault-eth0.yaml   # needs finding location of file , as this will not write to anything. 
 
