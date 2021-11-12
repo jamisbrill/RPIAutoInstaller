@@ -1,4 +1,7 @@
+#installs transmission , plex, pi hole, open media vault , mariadb . phpmyadmin ,mount hdd (may be redudant due to omv) , set ip .  
+
 #!/bin/bash
+
 
 sudo apt-get update
 sudo apt-get upgrade
@@ -17,8 +20,8 @@ sudo wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript
 
 
 #Install Transmission
-sudo apt install transmission-daemon
-sudo systemctl stop transmission-daemon
+#sudo apt install transmission-daemon
+#sudo systemctl stop transmission-daemon
 
 #Set static ip
 #Depends on network service ..... 
