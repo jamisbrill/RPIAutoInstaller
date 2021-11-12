@@ -1,6 +1,6 @@
-#installs transmission , plex, pi hole, open media vault , mariadb . phpmyadmin ,mount hdd (may be redudant due to omv) , set ip .  
 
 #!/bin/bash
+#installs transmission , plex, pi hole, open media vault , mariadb . phpmyadmin ,mount hdd (may be redudant due to omv) , set ip .  
 
 
 sudo apt-get update
