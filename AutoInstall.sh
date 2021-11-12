@@ -62,6 +62,10 @@ network:
        addresses: [1.1.1.1, 8.8.8.8]
 
 " >> /etc/netplan/20-openmediavault-eth0.yaml   # needs finding location of file , as this will not write to anything. 
+sudo netplan apply #apply the chages that have been modified to the file..
+sudo reboot # reboot due to the changes made.... 
+
+
 
 # install sudo ufw ? firewall for more protection .... 
 
